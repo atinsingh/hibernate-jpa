@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: hubernate-demo
+  datasource:
+    url: jdbc:h2:./appdb
+    username: sa
+    password: sa
+  jpa:
+    hibernate:
+
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
